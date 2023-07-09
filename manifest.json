@@ -1,0 +1,29 @@
+{
+    "format_version": 1,
+    "header": {
+      "description": "§b§b§nMade by:§4 A§6y§ea§ay§ba§9x§dD§f§m§l2872",
+        "name": "I'll change this later",
+        "uuid": "433656b3-2d20-4732-8d9c-3f36dd6ec9e8",
+        "version": [0, 6, 6]
+    },
+    "modules": [
+        {
+            "description": "Still in development",
+            "type": "resources",
+            "uuid": "836047a6-3fb8-45d7-9662-fbc6f134aa65",
+            "version": [0, 6, 6]
+        }
+    ],
+      	"subpacks":  [
+        {
+            "folder_name":  "on",
+			"memory_tier": 0,
+            "name":  "NPA compatible ( Not survival friendly, best for RPG third person)"
+        },
+        {
+            "folder_name": "off",
+            "memory_tier": 0,
+            "name": "Normal ( Need to deactive NPA )"
+        }
+    ]
+}
