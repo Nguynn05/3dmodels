@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+      "description": {
+        "identifier": "vocktilesfog:custom_fog_the_end"
+      },
+      "distance": {
+	  "air": {
+        "fog_start": 0,
+        "fog_end": 0.85,
+        "fog_color": "#010003",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0,
+        "fog_end": 128,
+        "fog_color": "#000000",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

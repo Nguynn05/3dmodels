@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.elytra.default": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"scale": 1.4
+				},
+				"wing1": {
+					"rotation": [45, 30, 47.5]
+				},
+				"bone": {
+					"rotation": [0, 1, -95]
+				},
+				"wing2": {
+					"rotation": [45, -30, -50]
+				},
+				"bone2": {
+					"rotation": [0, -1, 95]
+				}
+			}
+		},
+		"animation.elytra.gliding": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"body": {
+					"scale": 1.4
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": [12.5, -10, 0],
+						"0.52": [7.5, -12.5, 0],
+						"1.04": [12.5, -10, 0]
+					}
+				},
+				"bone": {
+					"rotation": [0, 10, 0]
+				},
+				"wing2": {
+					"rotation": {
+						"0.0": [15, 10, 0],
+						"0.52": [7.5, 12.5, 0],
+						"1.04": [15, 10, 0]
+					}
+				},
+				"bone2": {
+					"rotation": [0, -10, 0]
+				}
+			}
+		},
+		"animation.elytra.swimming": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"scale": 1.4
+				},
+				"wing1": {
+					"rotation": [62.5, 60, 65]
+				},
+				"bone": {
+					"rotation": [0, 1, -122.5]
+				},
+				"wing2": {
+					"rotation": [62.5, -65, -65]
+				},
+				"bone2": {
+					"rotation": [0, -1, 122.5]
+				}
+			}
+		},
+		"animation.elytra.sneaking": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"scale": 1.4
+				},
+				"wing1": {
+					"rotation": [45, 30, 47.5]
+				},
+				"bone": {
+					"rotation": [0, 1, 0]
+				},
+				"wing2": {
+					"rotation": [45, -30, -50]
+				},
+				"bone2": {
+					"rotation": [0, -1, 0]
+				}
+			}
+		},
+		"animation.elytra.sleeping": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"scale": 1.4
+				},
+				"wing1": {
+					"rotation": [45, -35, -27.5]
+				},
+				"bone": {
+					"rotation": [0, -81.5, 17.5]
+				},
+				"wing2": {
+					"rotation": [45, 35, 27.5]
+				},
+				"bone2": {
+					"rotation": [0, 84, -17.5]
+				}
+			}
+		}
+	}
+}
